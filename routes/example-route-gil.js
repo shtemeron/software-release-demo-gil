@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  app.get("/gilsh", (req, res) => {
+  app.get("/gilsht", (req, res) => {
     res.send("This is an Gil route!");
   });
 };
